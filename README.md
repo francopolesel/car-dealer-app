@@ -20,9 +20,20 @@ The application is built using the following technologies and patterns:
 - **Tailwind CSS**: For styling and responsive design
 - **API Integration**: Fetching data from the NHTSA API
 
+## Views
+
+### Home View
+
+![Home View](https://github.com/francopolesel/car-dealer-app/blob/master/images/home.png?raw=true)
+
+### Results View
+
+![Results View](https://github.com/francopolesel/car-dealer-app/blob/master/images/results.png?raw=true)
+
+
 ## Installation
 
-1. Clone the repository: git clone https://github.com/francopolesel/car-dealer-app.git
+1. Clone the repository: git clone [https://github.com/francopolesel/car-dealer-app.git](https://github.com/francopolesel/car-dealer-app.git)
    cd car-dealer-app
 
 2. Install dependencies: npm install
@@ -35,16 +46,9 @@ To run the application in development mode: npm run dev
 
 The application will be available at `http://localhost:3000`.
 
-## Building for Production
-
-To create a production build: npm run build
-
-To start the production server: npm start
-
 ## Project Structure
 
-- `pages/`: Contains the main pages of the application
-  - `index.js`: Home page with filter options
+- `page.js/`: Home page with filter options
   - `result/[makeId]/[year].js`: Result page for displaying vehicle models
 - `components/`: Reusable React components
 - `services/`: API calls
