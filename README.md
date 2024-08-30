@@ -38,8 +38,6 @@ The application is built using the following technologies and patterns:
 
 2. Install dependencies: npm install
 
-3. Create a `.env.local` file in the root directory and add NEXT_PUBLIC_API_BASE_URL=https://vpic.nhtsa.dot.gov/api
-
 ## Running the Application
 
 To run the application in development mode: npm run dev
